@@ -1,0 +1,34 @@
+// ============================================
+// Colors
+
+$color-primary    : #26256c;
+$color-secondary  : #9050ef;
+$color-tertiary   : #7e709d;
+
+// =============================================
+// webfatorial
+
+$webfatorial-colors: (
+  'webfatorial-success'  : #3cc368,
+  'webfatorial-warning'  : #f5a600,
+  'webfatorial-error'    : #ec5840,
+  'webfatorial-gray-1'   : #363636,
+  'webfatorial-gray-2'   : #4f4f4f,
+  'webfatorial-gray-3'   : #828282,
+  'webfatorial-gray-4'   : #bdbdbd,
+  'webfatorial-gray-5'   : #e0e0e0,
+  'webfatorial-white'    : #fcfcfc,
+);
+
+
+// =================================================
+// Others
+
+$z-indexes: (
+  'above'   : 500,
+  'modal'   : 400,
+  'overlay' : 300,
+  'dropdown': 200,
+  'default' : 1,
+  'below'   : -1,
+);
