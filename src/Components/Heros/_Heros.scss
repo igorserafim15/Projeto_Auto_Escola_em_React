@@ -1,0 +1,30 @@
+.c-hero {
+  background-color: $color-primary-2;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+  .hero__container {
+    min-height: $size-7;
+    display: flex;
+    align-items: center;
+  }
+  .hero__decoration {
+    height: 300px;
+    width: 400px;
+    background-color: $color-primary-3;
+    border-radius: 999px;
+    rotate: -45deg;
+    position: absolute;
+    opacity: .3;
+    &.item1 {
+      right: -50px;
+      z-index: -1;
+    }
+    &.item2 {
+      z-index: -1;
+      bottom: -100px;
+      left: 50px;
+      width: 300px;
+    }
+  }
+}

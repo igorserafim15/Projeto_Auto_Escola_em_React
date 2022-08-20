@@ -1,8 +1,14 @@
 import React from 'react'
 
-const IconDescription = () => {
+const IconDescription = ({icon, title, description}) => {
   return (
-    <figure>IconDescription</figure>
+    <figure className='c-icon-description'>
+      {icon}
+      <figcaption>
+        <h4>{title}</h4>
+        <p className='paragraphy-sml'>{description}</p>
+      </figcaption>
+    </figure>
   )
 }
 

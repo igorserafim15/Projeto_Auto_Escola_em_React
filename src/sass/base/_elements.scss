@@ -40,6 +40,16 @@ h4 {
   font-size: $font-size-5;
 }
 
+a {
+  display: inline-block;
+  color: $color-primary-1;
+  padding: $spacing-1 0;
+  transition: .2s;
+  &:hover {
+    background-color: $color-primary-transparent;
+  }
+}
+
 *,
 *::before,
 *::after {

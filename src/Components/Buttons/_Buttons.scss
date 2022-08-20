@@ -6,21 +6,32 @@ Focus
 Pressed
 */
 
-.filled-button {
-  padding: 10px 20px;
+.c-filled-button {
+  padding: $spacing-2 $spacing-5;
   background-color: $color-primary-1;
-  color: $black;
-  border-radius: 2px;
+  color: $color-primary-8;
+  border-radius: .4rem;
   transition: .3s;
+  &:hover {
+    background-color: $color-primary-4;
+  }
+}
+
+.c-outlined-button {
+  padding: $spacing-2 $spacing-5;
+  color: $color-primary-6;
+  border: .2rem solid $color-primary-1;
+  border-radius: .4rem;
   &:hover {
     background-color: $color-primary-2;
   }
 }
 
-.outlined-button {
-  background-color: $color-primary-1;
-}
-
-.text-button {
-  background-color: $color-primary-1;
+.c-text-button {
+  padding: $spacing-2 $spacing-5;
+  color: $color-primary-6;
+  border-radius: .4rem;
+  &:hover {
+    background-color: $color-primary-2;
+  }
 }

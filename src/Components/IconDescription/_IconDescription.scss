@@ -1,0 +1,11 @@
+.c-icon-description {
+  flex: 1;
+  max-width: $size-6;
+  padding: $spacing-2;
+  figcaption {
+    margin-top: $spacing-4;
+  }
+  h4 {
+    margin-bottom: $spacing-4;
+  }
+}

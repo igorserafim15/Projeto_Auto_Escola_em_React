@@ -1,3 +1,23 @@
-.card {
+.c-card {
+  flex: 1;
+  max-width: $size-6;
   background-color: $white;
+  padding: $spacing-5;
+  border-radius: $spacing-2;
+  box-shadow: $box-shadow-2;
+  figcaption {
+    margin-top: $spacing-4;
+  }
+  p {
+    margin: $spacing-4 0;
+  }
+  transition: .2s;
+  &:hover {
+    background-color: $color-primary-4;
+    box-shadow: $box-shadow-3;
+    transform: translateY(-.4rem);
+    a {
+      color: $black;
+    }
+  }
 }

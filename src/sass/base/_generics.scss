@@ -14,3 +14,27 @@
   padding-left: $spacing-5;
   padding-right: $spacing-5;
 }
+
+p.paragraphy-xsl {
+  font-size: $font-size-1;
+  color: $gray-3;
+}
+
+p.paragraphy-sml {
+  font-size: $font-size-2;
+  color: $gray-2;
+}
+
+p.paragraphy-lge {
+  font-size: $font-size-4;
+}
+
+.font-white {
+  color: $white;
+}
+
+.featured-text {
+  color: $color-primary-1;
+  font-weight: bold;
+  font-size: inherit;
+}

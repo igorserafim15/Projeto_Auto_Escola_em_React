@@ -2,10 +2,17 @@
 // Colors
 
 $color-primary-1  : #ffbb00;
-$color-primary-2  : #e4a30b;
-$color-primary-3  : #a66f00;
-$color-primary-4  : #664400;
-$color-primary-5  : #332200;
+
+$color-primary-2  : #fcf8e9;
+$color-primary-3  : #f4d98e;
+$color-primary-4  : #f3c851;
+$color-primary-5  : #f0bc2d;
+$color-primary-6  : #e4a30b;
+$color-primary-7  : #a66f00;
+$color-primary-8  : #664400;
+$color-primary-9  : #332200;
+
+$color-primary-transparent  : #ffbb0009;
 
 // =============================================
 // webfatorial
@@ -37,11 +44,11 @@ $below    : -1;
 $font-size-1 : 1.2rem;
 $font-size-2 : 1.4rem;
 $font-size-3 : 1.6rem;
-$font-size-4 : 2.0rem;
-$font-size-5 : 2.4rem;
-$font-size-6 : 3.2rem;
-$font-size-7 : 4.0rem;
-$font-size-8 : 4.8rem;
+$font-size-4 : 1.8rem;
+$font-size-5 : 2.0rem;
+$font-size-6 : 2.8rem;
+$font-size-7 : 3.6rem;
+$font-size-8 : 4.4rem;
 
 // =================================================
 // Spacing
@@ -60,3 +67,25 @@ $spacing-11  : 6.0rem;
 $spacing-12  : 8.0rem;
 $spacing-13  : 12.0rem;
 $spacing-14  : 16.0rem;
+
+// =================================================
+// Width
+
+$size-1  : 8.0rem;
+$size-2  : 12.0rem;
+$size-3  : 16.0rem;
+$size-4  : 20.0rem;
+$size-5  : 24.0rem;
+$size-6  : 32.0rem;
+$size-7  : 40.0rem;
+$size-8  : 48.0rem;
+$size-9  : 60.0rem;
+$size-10 : 72.0rem;
+
+// =================================================
+// Box Shadow
+
+$box-shadow-1: 0px 2px 2px -1px #00000020;
+$box-shadow-2: 0px 4px 4px -2px #00000020;
+$box-shadow-3: 0px 8px 8px -4px #00000020;
+$box-shadow-4: 0px 16px 16px -8px #00000020;

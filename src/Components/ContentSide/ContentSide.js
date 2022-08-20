@@ -1,8 +1,12 @@
 import React from 'react'
 
-const ContentSide = () => {
+const ContentSide = ({children}) => {
   return (
-    <div>ContentSide</div>
+    <div className="c-content-side">
+      <div className='content-side-column'>
+        {children}
+      </div>
+    </div>
   )
 }
 

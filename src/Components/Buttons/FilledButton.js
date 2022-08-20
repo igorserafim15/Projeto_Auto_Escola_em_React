@@ -1,10 +1,8 @@
 import React from "react";
 
-const FilledButton = ({ children }) => {
+const FilledButton = ({ text, href }) => {
   return (
-    <a className="filled-button" href="#">
-      {children}
-    </a>
+    <a className="c-filled-button" href={href}>{text}</a>
   );
 };
 

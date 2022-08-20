@@ -1,3 +1,30 @@
-.call-to-action {
-  background-color: $white;
+.c-call-to-action {
+  background-color: $color-primary-2;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+  .call-to-action__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: $size-2;
+  }
+  .cta__decoration {
+    height: 100px;
+    width: 250px;
+    background-color: $color-primary-3;
+    border-radius: 999px;
+    rotate: -45deg;
+    position: absolute;
+    opacity: .3;
+    &.item1 {
+      z-index: -1;
+      bottom: -50px;
+    }
+    &.item2 {
+      z-index: -1;
+      top: -50px;
+      right: 0;
+    }
+  }
 }

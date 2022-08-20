@@ -8,10 +8,9 @@ const Header = () => {
         <div className="header__logo">Logo</div>
         <ul className="header__menu">
           <li><Link to='/'>Home</Link></li>
-          <li><Link to='/'>Sobre</Link></li>
-          <li><Link to='/'>Serviços</Link></li>
-          <li><Link to='/'>Contato</Link></li>
-          <li><Link to='/'>Blog</Link></li>
+          <li><Link to='/sobre'>Sobre</Link></li>
+          <li><Link to='/servicos'>Serviços</Link></li>
+          <li><Link to='/blog'>Blog</Link></li>
         </ul>
       </nav>
     </header>
