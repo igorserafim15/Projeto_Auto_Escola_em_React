@@ -1,0 +1,26 @@
+/*
+Enable
+Disable
+Hover
+Focus
+Pressed
+*/
+
+.filled-button {
+  padding: 10px 20px;
+  background-color: $color-primary-1;
+  color: $black;
+  border-radius: 2px;
+  transition: .3s;
+  &:hover {
+    background-color: $color-primary-2;
+  }
+}
+
+.outlined-button {
+  background-color: $color-primary-1;
+}
+
+.text-button {
+  background-color: $color-primary-1;
+}

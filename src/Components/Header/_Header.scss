@@ -1,0 +1,26 @@
+.header {
+  background-color: $white;
+  .header__nav {
+    min-height: $spacing-12;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__logo {
+    font-size: $font-size-5;
+    font-weight: bold;
+    color: $color-primary-1;
+  }
+  .header__menu {
+    display: flex;
+    align-items: center;
+    gap: $spacing-2;
+    li a {
+      display: inline-block;
+      padding: $spacing-3 $spacing-5;
+      &:hover {
+        color: $color-primary-1;
+      }
+    }
+  }
+}

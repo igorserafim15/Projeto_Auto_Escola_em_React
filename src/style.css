@@ -4,6 +4,7 @@
 /**
  * Remove anchor text-decoration
  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 a {
   text-decoration: none;
 }
@@ -15,7 +16,7 @@ ol, ul {
   list-style: none;
 }
 
-html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main, figure, figcaption {
   margin: 0;
   padding: 0;
   border: 0;
@@ -32,6 +33,7 @@ img {
   display: block;
 }
 
+/*Este import deve ser removido*/
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -44,10 +46,11 @@ html {
 }
 
 body * {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   line-height: 1.5;
-  color: #26256c;
+  color: #363636;
 }
 
 h1,
@@ -58,19 +61,19 @@ h5,
 h6 {
   font-weight: 700;
   line-height: 1.1;
-  color: #9050ef;
+  color: #111111;
 }
 
 h1 {
-  font-size: 6.4rem;
+  font-size: 4.8rem;
 }
 
 h2 {
-  font-size: 4.2rem;
+  font-size: 4rem;
 }
 
 h3 {
-  font-size: 3.6rem;
+  font-size: 3.2rem;
 }
 
 h4 {
@@ -118,32 +121,48 @@ label {
 }
 
 :focus-visible {
-  outline-color: #26256c;
+  outline-color: #ffbb00;
 }
 
 ::-moz-selection {
-  background-color: #26256c;
+  background-color: #ffbb00;
 }
 
 ::selection {
-  background-color: #26256c;
+  background-color: #ffbb00;
 }
 
 ::marker {
-  color: #26256c;
+  color: #ffbb00;
 }
 
 ::-webkit-calendar-picker-indicator {
-  color: #26256c;
+  color: #ffbb00;
 }
 
 ::-webkit-clear-button {
-  color: #26256c;
+  color: #ffbb00;
 }
 
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
-  color: #26256c;
+  color: #ffbb00;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.container-large {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .sr-only {
@@ -155,9 +174,67 @@ label {
   width: 1px;
 }
 
-.button {
+/*
+Enable
+Disable
+Hover
+Focus
+Pressed
+*/
+.filled-button {
   padding: 10px 20px;
-  background-color: tomato;
-  border-radius: 2apx;
-  color: white;
+  background-color: #ffbb00;
+  color: #111111;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+.filled-button:hover {
+  background-color: #e4a30b;
+}
+
+.outlined-button {
+  background-color: #ffbb00;
+}
+
+.text-button {
+  background-color: #ffbb00;
+}
+
+.call-to-action {
+  background-color: #fcfcfc;
+}
+
+.card {
+  background-color: #fcfcfc;
+}
+
+.contetn-side {
+  background-color: #fcfcfc;
+}
+
+.header {
+  background-color: #fcfcfc;
+}
+.header .header__nav {
+  min-height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header__logo {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #ffbb00;
+}
+.header .header__menu {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.header .header__menu li a {
+  display: inline-block;
+  padding: 1.2rem 2rem;
+}
+.header .header__menu li a:hover {
+  color: #ffbb00;
 }/*# sourceMappingURL=style.css.map */

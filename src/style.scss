@@ -17,26 +17,20 @@
 @import "sass/base/a11y";
 
 // ==========================================================================
-// Layout
-// ==========================================================================
-
-// @import "layout/l-";
-
-// ==========================================================================
 // Component
 // ==========================================================================
 
-@import "Components/Button";
-
-// ==========================================================================
-// State
-// ==========================================================================
-
-// @import "state/is-";
+@import "Components/Buttons/Buttons";
+@import "Components/CallToAction/CallToAction";
+@import "Components/Cards/Card";
+@import "Components/ContentSide/ContentSide";
+@import "Components/Footer/Footer";
+@import "Components/Header/Header";
+@import "Components/Heros/Heros";
+@import "Components/IconDescription/IconDescription";
 
 // ==========================================================================
 // Page
 // ==========================================================================
 
-// @import "page/";
-
+@import "Pages/Home";
