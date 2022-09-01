@@ -7,10 +7,12 @@ export default {
   component: Card,
 };
 
-export const card = () => <Card 
-  icon={<Icon />}
-  title='Melhor preço da cidade'
-  description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor.'
-  textButton='Clique aqui'
-  href='#'
-/>
+export const card = () => (
+  <Card 
+    icon={<Icon />}
+    title='Melhor preço da cidade'
+    description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor.'
+    textButton='Clique aqui'
+    href='#'
+  />
+)

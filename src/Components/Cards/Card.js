@@ -9,6 +9,7 @@ const Card = ({icon, title, description, textButton, href }) => {
         <p className='paragraphy-sml'>{description}</p>
         <a href={href}>{textButton}</a>
       </figcaption>
+      <div className="card__decoration"></div>
     </figure>
   )
 }

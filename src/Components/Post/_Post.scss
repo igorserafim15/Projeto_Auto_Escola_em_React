@@ -1,0 +1,10 @@
+.c-post {
+  flex: 1;
+  max-width: $size-6;
+  background-color: $white;
+  border-radius: $spacing-2;
+  box-shadow: $box-shadow-2;
+  .post_content {
+    padding: $spacing-5;
+  }
+}
